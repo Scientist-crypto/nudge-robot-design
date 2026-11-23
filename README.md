@@ -29,3 +29,33 @@ Here’s what Nudge does today, and what’s still on the way.
 | **Keyboard and mouse signals.** Typing and mouse activity show whether you’re focused, reading or away, so Nudge picks a good moment to speak up. It only sees activity levels, never what you type. | Planned |
 | **A tough 3D-printed body.** A 5-part design: shell, bezel, glowing top panel, base and display mount. | Printed |
 | **One USB-C cable.** An ESP32-c3 gets power and data over the same cable, so there’s no battery and no parking. |Working |
+## How it works
+The way I think about it: your laptop is the brain and the robot is the body. The laptop does all the heavy thinking. The robot just gets short text commands over USB, things like “look worried” or “show a water reminder”, and sends back touches like “tapped” or “held”. That keeps the robot cheap and simple, and the hard work runs on a computer you already own.
+###How it spots bad posture
+1. A pose model runs on your laptop and finds your head, shoulders and face in every webcam frame.
+2. You sit up straight once so Nudge can calibrate. It learns what your good posture looks like from where your camera sits, so it never compares you to some average body.
+3. Every frame is checked against that: how far your head has dropped toward your shoulders, how far it’s pushed forward, whether you’re leaning in or tilting, and how close you are to the screen.
+4. The readings are smoothed out, and a problem has last a few seconds before anything happens. That’s why reaching for a drink or glancing at a second screen doesn’t set it off.
+5. The result is one simple state: good, warning, bad or away. That state decides the robot’s face and light.
+6. ###The Nudge assistant
+7. The wake word and speech-to-text run on your laptop, so your voice gets uploaded. Only the text of what you asked goes to a language model, along with a bit of context like the time and today’s posture summary. It can use tools like timers, reminders, your calendar and web search. Anything risky needs you to say “yes” first. It talks back through your laptop speakers
+
+
+
+
+## Hardware
+### Bill of materials
+These are rough single-unit prices from Aliexpress or Amazon, in Us dollars.
+|# | Part | Qty | Price | Notes |
+|—-|——|——|——|——|
+| 1| Carrier board with an ESP32-C3 SuperMini module (USB-C) | 1 | $3 | The brain of the robot, with native USB serial. This is my stage 1 prototype. The final product will be a custom PCB with the ESP32-C3 chip soldered straight on. |
+| 2| 1.8” 128x160 ST7735 colour TFT (SPI) | 1 | $5 | the face. It sits in the TFT mount. |
+| 3| TTP223 capacitive touch module | 1 | $0.50 | Goes under the top panel and can feel a touch through 1 to 2 mm of plastic. |
+| 4| WS2812B 5050 RGB LED (3 pads: VCC, GND, DIN) | 1 | $0.50 | Lights up the top panel. Just one data wire. |
+| 5| USB-C data cable | 1 | $3 | Gives power and serial. Careful, some cheap cables only charge. |
+| 6| PLA filament (shell, bezel, base, mount) | about 90 g | $2 | Any opaque colour works. |
+| 7| Translucent or white PLA or PETG (top panel) | about 12 | $1 | Or solder thin silicone wire instead. |
+| 8| Dupont jumper wires, female to female | about 12 | $1 | Or solder thin silicone wire instead. |
+| 9| M2 screws, 6 to 8 mm | 4 to 6 | $1 | For the mount and the base. |
+| 10| 330 ohm resistor (LED data line), optional | 1 | $0.05 | Protects the LED’s data pin. |
+| | Total | | about $17 | |
