@@ -5,7 +5,7 @@ It works on Windows, macOS and Linux with any normal webcam. The robot connects 
 ## What it does
 - **Posture coaching:** It notices when you slouch, lean in, tilt your shoulders or crane your head. The robot’s face turns worried, then grumpy, and its light goes amber, then red.
 - **Water reminders:** Every 30 minutes, with a daily goal of 8 glasses.
-- **Eye breaks (20-20-20):** Every 30 minutes, look at something about 20 feet away for 20 seconds.
+- **Eye breaks (20-20-20):** Every 20 minutes, look at something about 20 feet away for 20 seconds.
 - **Stretch breaks:** After 45 minutes of sitting without a break. If you leave your desk for more than a minute, that counts as a break.
 - **Focus timer:** 25 minutes of work, then a 5 minute break (Pomodoro style).
 - **Achievements and high fives:** When you hit a goal, the robot asks for a high five. Tap the touch sensor on its head to give it one.
