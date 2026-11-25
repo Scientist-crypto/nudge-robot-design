@@ -49,7 +49,7 @@ These are rough single-unit prices from AliExpress or Amazon, in US dollars.
 |# | Part | Qty | Price | Notes |
 |—-|——|——|——|——|
 | 1| Carrier board with an ESP32-C3 SuperMini module (USB-C) | 1 | $3 | The brain of the robot, with native USB serial. This is my stage 1 prototype. The final product will be a custom PCB with the ESP32-C3 chip soldered straight on. |
-| 2| 1.8” 128x160 ST7735 colour TFT (SPI) | 1 | $5 | the face. It sits in the TFT mount. |
+| 2| 1.8” 128x160 ST7735 colour TFT (SPI) | 1 | $5 | The face. It sits in the TFT mount. |
 | 3| TTP223 capacitive touch module | 1 | $0.50 | Goes under the top panel and can feel a touch through 1 to 2 mm of plastic. |
 | 4| WS2812B 5050 RGB LED (3 pads: VCC, GND, DIN) | 1 | $0.50 | Lights up the top panel. Just one data wire. |
 | 5| USB-C data cable | 1 | $3 | Gives power and serial. Careful, some cheap cables only charge. |
