@@ -25,7 +25,7 @@ Here’s what Nudge does today, and what’s still on the way.
 | **A glowing, touch-sensitive top.** An RGB LED lights up a translucent panel in the colour of Nudge’s mood. A touch sensor underneath feels taps, double-taps and holds. | Working |
 | **Nudge, the voice assistant.** Say *”Hey Nudge”* to ask questions, set timers, control your laptop or check your day. It talks through your own speakers, so the robot itself needs no speaker or microphone. | Working (laptop app) |
 | **Smart breaks.** Water, stretch and 20-20-20 eye break reminders, plus a heads-up before calendar events so it doesn’t interrupt a meeting. | Partly built : reminders and calendar heads-ups work, planning breaks around meetings is next |
-| **Thunking moment” check-ins.** When you lean back or stare away from the screen for a whole, Nudge waits, then checks in gently instead of telling you off. | Planned |
+| **Thinking moment” check-ins.** When you lean back or stare away from the screen for a whole, Nudge waits, then checks in gently instead of telling you off. | Planned |
 | **Keyboard and mouse signals.** Typing and mouse activity show whether you’re focused, reading or away, so Nudge picks a good moment to speak up. It only sees activity levels, never what you type. | Planned |
 | **A tough 3D-printed body.** A 5-part design: shell, bezel, glowing top panel, base and display mount. | Printed |
 | **One USB-C cable.** An ESP32-c3 gets power and data over the same cable, so there’s no battery and no parking. |Working |
