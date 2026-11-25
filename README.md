@@ -21,7 +21,7 @@ Here’s what Nudge does today, and what’s still on the way.
 |—-|—-|
 | **Private posture detection.** Your laptop’s webcam is analysed on the laptop itself. No video or pictures ever leave your computer, and nothing is recorded. | Working |
 | **No false alarms for normal movement.** Looking down at the keyboard, reaching for a drink or turning to a second screen doesn’t count as slouching. A problem has to last for a while before Nudge reacts. | Working |
-| **A face that reacts.** A 1.8”” colour screen shows happy, calm, worried, grumpy,sleepy, love, thinking and surprised faces, with smooth animation and blinking. | Working |
+| **A face that reacts.** A 1.8” colour screen shows happy, calm, worried, grumpy, sleepy, love, thinking and surprised faces, with smooth animation and blinking. | Working |
 | **A glowing, touch-sensitive top.** An RGB LED lights up a translucent panel in the colour of Nudge’s mood. A touch sensor underneath feels taps, double-taps and holds. | Working |
 | **Nudge, the voice assistant.** Say *”Hey Nudge”* to ask questions, set timers, control your laptop or check your day. It talks through your own speakers, so the robot itself needs no speaker or microphone. | Working (laptop app) |
 | **Smart breaks.** Water, stretch and 20-20-20 eye break reminders, plus a heads-up before calendar events so it doesn’t interrupt a meeting. | Partly built : reminders and calendar heads-ups work, planning breaks around meetings is next |
