@@ -45,7 +45,7 @@ The way I think about it: your laptop is the brain and the robot is the body. Th
 
 ## Hardware
 ### Bill of materials
-These are rough single-unit prices from Aliexpress or Amazon, in Us dollars.
+These are rough single-unit prices from AliExpress or Amazon, in US dollars.
 |# | Part | Qty | Price | Notes |
 |—-|——|——|——|——|
 | 1| Carrier board with an ESP32-C3 SuperMini module (USB-C) | 1 | $3 | The brain of the robot, with native USB serial. This is my stage 1 prototype. The final product will be a custom PCB with the ESP32-C3 chip soldered straight on. |
