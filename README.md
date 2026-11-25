@@ -1,5 +1,5 @@
 # The Posture Robot
-#Nudge: the posture robot for your desk
+# Nudge: the posture robot for your desk
 Nudge is a little desk buddy that keeps an eye on your posture while you work. Your webcam watches how you sit, a dashboard in your browser shows how you’re doing, and a small ESP32 robot reacts right there on your desk.
 It works on Windows, macOS and Linux with any normal webcam. The robot connects over USB or Wi-Fi. A few extras only work on macOS for now, and I’ve marked those with **(macOS)**
 ## What it does
@@ -31,13 +31,13 @@ Here’s what Nudge does today, and what’s still on the way.
 | **One USB-C cable.** An ESP32-c3 gets power and data over the same cable, so there’s no battery and no parking. |Working |
 ## How it works
 The way I think about it: your laptop is the brain and the robot is the body. The laptop does all the heavy thinking. The robot just gets short text commands over USB, things like “look worried” or “show a water reminder”, and sends back touches like “tapped” or “held”. That keeps the robot cheap and simple, and the hard work runs on a computer you already own.
-###How it spots bad posture
+### How it spots bad posture
 1. A pose model runs on your laptop and finds your head, shoulders and face in every webcam frame.
 2. You sit up straight once so Nudge can calibrate. It learns what your good posture looks like from where your camera sits, so it never compares you to some average body.
 3. Every frame is checked against that: how far your head has dropped toward your shoulders, how far it’s pushed forward, whether you’re leaning in or tilting, and how close you are to the screen.
 4. The readings are smoothed out, and a problem has last a few seconds before anything happens. That’s why reaching for a drink or glancing at a second screen doesn’t set it off.
 5. The result is one simple state: good, warning, bad or away. That state decides the robot’s face and light.
-6. ###The Nudge assistant
+6. ### The Nudge assistant
 7. The wake word and speech-to-text run on your laptop, so your voice gets uploaded. Only the text of what you asked goes to a language model, along with a bit of context like the time and today’s posture summary. It can use tools like timers, reminders, your calendar and web search. Anything risky needs you to say “yes” first. It talks back through your laptop speakers
 
 
