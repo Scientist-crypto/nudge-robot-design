@@ -14,7 +14,7 @@ It works on Windows, macOS and Linux with any normal webcam. The robot connects 
 - **Spoken messages and sounds (macOS):** Posture warnings, praise, reminders and timer events are said out loud, and the robot’s sounds play through your speakers. The dashboard’s own click sounds work in any browser.
 - **Nudge, the robot’s AI assistant:** Say *”Hey Nudge”*. It’s the robot’s personality, powered by Claude. It speaks up on its own (reminders, welcome-backs, meeting heads-ups), and it can control the robot, phone you, search the web and remember things about you. On macOS it can also run your computer (terminal, apps, your screen). It can also run on its own, without the camera. [More below](#3-nudge-ai-assistant).
 - You can change all of these in the dashboard’s **Settings**.
-- Computer (brain/) 
+   
 ## Features
 Here’s what Nudge does today, and what’s still on the way.
 | Feature | Status |
