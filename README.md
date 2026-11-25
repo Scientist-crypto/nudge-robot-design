@@ -16,10 +16,10 @@ It works on Windows, macOS and Linux with any normal webcam. The robot connects 
 - You can change all of these in the dashboard’s **Settings**.
    
 ## Features
-Here’s what Nudge does today, and what’s still on the way.
-| Feature | Status |
-|—-|—-|
-| **Private posture detection.** Your laptop’s webcam is analysed on the laptop itself. No video or pictures ever leave your computer, and nothing is recorded. | Working |
+-Here’s what Nudge does today, and what’s still on the way.
+-| Feature | Status |
+-|—-|—-|
+-| **Private posture detection.** Your laptop’s webcam is analysed on the laptop itself. No video or pictures ever leave your computer, and nothing is recorded. | Working |
 | **No false alarms for normal movement.** Looking down at the keyboard, reaching for a drink or turning to a second screen doesn’t count as slouching. A problem has to last for a while before Nudge reacts. | Working |
 | **A face that reacts.** A 1.8” colour screen shows happy, calm, worried, grumpy, sleepy, love, thinking and surprised faces, with smooth animation and blinking. | Working |
 | **A glowing, touch-sensitive top.** An RGB LED lights up a translucent panel in the colour of Nudge’s mood. A touch sensor underneath feels taps, double-taps and holds. | Working |
