@@ -54,8 +54,8 @@ These are rough single-unit prices from AliExpress or Amazon, in US dollars.
 | 4| WS2812B 5050 RGB LED (3 pads: VCC, GND, DIN) | 1 | $0.50 | Lights up the top panel. Just one data wire. |
 | 5| USB-C data cable | 1 | $3 | Gives power and serial. Careful, some cheap cables only charge. |
 | 6| PLA filament (shell, bezel, base, mount) | about 90 g | $2 | Any opaque colour works. |
-| 7| Translucent or white PLA or PETG (top panel) | about 12 | $1 | Or solder thin silicone wire instead. |
-| 8| Dupont jumper wires, female to female | about 12 | $1 | Or solder thin silicone wire instead. |
+| 7| Translucent or white PLA or PETG (top panel) | about 12 | $1 | 
+| 8| Dupont jumper wires, female to female or solder thin silicone wire instead.| about 12 | $1 | 
 | 9| M2 screws, 6 to 8 mm | 4 to 6 | $1 | For the mount and the base. |
 | 10| 330 ohm resistor (LED data line), optional | 1 | $0.05 | Protects the LED’s data pin. |
 | | Total | | about $17 | |
